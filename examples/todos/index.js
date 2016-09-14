@@ -6,11 +6,17 @@ import { createStore } from 'redux'
 import todoApp from './reducers'
 import App from './components/App'
 
-let store = createStore(todoApp)
+// action           <-
+// reducer          <-
+// backend app      <- combineReducers
+// store            <- createStore
+// front app        <- react
+//  - component     <- react/redux
+let store = createStore(todoApp);
 
 render(
   <Provider store={store}>
     <App />
   </Provider>,
   document.getElementById('root')
-)
+);
