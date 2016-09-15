@@ -6,4 +6,4 @@ Try to let it more clear
 
 to Redux  
 
-8-)
+:tomato:
